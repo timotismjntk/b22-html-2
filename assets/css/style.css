@@ -1,0 +1,105 @@
+.navbar {
+    background-color: rgb(15, 100, 15);
+    background-image: linear-gradient(rgb(15, 100, 15), rgb(27, 173, 27));
+    padding: 15px;
+}
+
+.nav-item {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: rgb(161, 161, 66);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.infoSection {
+    display: flex;
+    flex-direction: row;
+}
+
+.boxAuthor {
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    height: 30px;
+    background-color: rgb(100, 133, 81);
+    margin-right: 10px;
+}
+
+.boxComments {
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    height: 30px;
+    background-color: rgb(100, 133, 81)
+}
+
+.boxAuthor span, .boxComments span {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.wrapper {
+    margin-top: 15px;
+    display:flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+}
+
+.content {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.image::before {
+    content: url('../image/image.jpg');
+    margin-right: 15px
+}
+
+.wrapperText p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.readMore {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+.readMore a {
+    color: red;
+    text-decoration: none;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: row;
+}
+
+.image2::before {
+    content: url('../image/kursi1.jpg');
+    margin-right: 15px
+}
+
+.image3::before {
+    content: url('../image/kursi2.jpg');
+    margin-right: 15px
+}
+
+.image4::before {
+    content: url('../image/kursi3.jpg');
+    margin-right: 15px
+}
+
+.image5::before {
+    content: url('../image/kursi4.jpg');
+    margin-right: 15px
+}
